@@ -1,0 +1,24 @@
+$primary-color: #0e1c1f;
+$text-color: #070764;
+
+div {
+  background-color: #e7e2e2;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    color: $primary-color;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  p {
+    color: $text-color;
+    line-height: 1.6;
+    text-align: center;
+    font-weight: bold;
+  }
+}
